@@ -1,0 +1,9 @@
+# Tell visual_debug_node to swap its waypoint list to the file at yaml_path.
+# Internal channel used by mission_server.
+
+string yaml_path
+bool reset_progress
+---
+bool success
+string message
+int32 waypoint_count

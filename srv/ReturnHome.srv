@@ -1,0 +1,7 @@
+# Drive to the home location (first/last waypoint of the active route)
+# using the shorter of forward or reverse.
+---
+bool success
+string message
+string chosen_direction
+float32 distance_m

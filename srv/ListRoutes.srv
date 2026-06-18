@@ -1,0 +1,3 @@
+# Enumerate all routes discovered in the configured routes directory.
+---
+mission_server_interfaces/RouteInfo[] routes

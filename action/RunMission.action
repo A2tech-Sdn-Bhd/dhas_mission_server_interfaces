@@ -1,0 +1,13 @@
+# Goal — start a mission for the named route.
+string route_name
+---
+# Result — terminal state of the mission.
+bool success
+string message
+uint8 final_state
+---
+# Feedback — emitted while the mission is running.
+uint8 state
+int32 current_index
+int32 total_waypoints
+float32 distance_remaining_m
